@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace CalculatorConsoleApp
 {
     internal class Program
@@ -13,24 +7,5 @@ namespace CalculatorConsoleApp
 
         }
 
-        static int Penambahan(int a, int b)
-        {
-            return a + b;
-        }
-
-        static int Pengurangan(int a, int b)
-        {
-            return a - b;
-        }
-
-        static int Perkalian(int a, int b)
-        {
-            return a * b;
-        }
-
-        static double Pembagian(double a, double b)
-        {
-            return a / b;
-        }
     }
 }
